@@ -1,0 +1,182 @@
+.resume-container{
+    height: 100%;
+    width: 70%;
+    box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
+}
+.profile-pic{
+    /* height: 19rem;
+    width: 15.9rem; */
+    height: 22rem;
+    width: 15.9rem;
+}
+.header-row .col-3, .header-row .col-9{
+    padding: 0;
+}
+.header-row .col-3{
+    position: relative;
+}
+.profile-name{
+    position: relative;
+    border: 4px solid #45B7D2;
+    text-align: center;
+    padding: 10px 0;
+    margin: 2rem 2rem 0 2rem;
+}
+.profile-text{
+    position: absolute;
+    padding: 0 9px;
+    color: #45B7D2;
+    font-weight: 600;
+}
+/* .header-row .col-9{
+    padding: 2rem 2rem 0 2rem;
+} */
+.profile-contact{
+    margin-top: 2rem;
+}
+.profile-contact .col-4{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-contact i{
+    font-size: 1.5rem;
+    margin-right: 0.25rem;
+
+}
+.profile-contact span{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 0.25rem 0;
+}
+.profile-data{
+    margin-top: 3.2rem;
+    font-size: 1rem;
+    background-color: #45B7D2;
+    padding: 0 2rem;
+}
+.box-color{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    background-color: #45B7D2;
+    opacity: 0.5;
+}
+.content-education-label{
+    text-align: center;
+    background-color: #DFDFE1;
+    padding: 1rem 2rem 0 2rem;
+}
+.content-experience-label{
+    padding: 1rem 2rem 0 2rem;
+}
+.content-education-label h5,.content-experience-label >h5{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    line-height: 2rem;
+}
+.content-education-label h5:not(:first-child){
+   margin-top: 2rem;
+}
+.content-education-details, .content-achivement, .content-hobbies{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-top:2rem
+}
+.content-education-details span:first-child, .content-experience-details >span:nth-child(1), .content-experience-details >span:nth-child(4), .content-experience-details >span:nth-child(7){
+    font-weight: 600;
+}
+.content-education-details span:nth-child(2), .content-education-details span:nth-child(3), .content-education-details span:nth-child(4),
+.content-experience-details span:nth-child(2),.content-experience-details span:nth-child(5),.content-experience-details span:nth-child(8){
+    font-size: 0.81rem;
+}
+.content-skills-details{
+    margin-top: 2rem;
+    text-align: left;
+}
+.content-skills-details span{
+    font-size: 0.85rem;
+}
+.content-skills-details span:not(:first-child){
+    margin-top:2rem;
+}
+.content-skills-details .progress{
+    height: 0.5rem;
+    border-radius: 0;
+    background-color: #B7B8BD;
+    margin-bottom: 1rem;
+}
+.content-achivement,.content-hobbies{
+    font-size: 0.85rem;
+}
+.content-hobbies{
+    margin-bottom: 2rem;
+}
+.content-exp-1{
+    margin-top:1rem;
+}
+.content-experience-details{
+    padding: 1rem 2rem 0 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.content-exp-role{
+    font-size: 0.81rem;
+    margin-top:1rem;
+    margin-bottom: 2rem;
+}
+.content-year{
+    border-right: 1px solid black;
+    margin-top: 1.2rem;
+    margin-bottom: 2rem;
+}
+.first-year, .sec-year, .third-year{
+    position: relative;
+}
+.first-year{
+    top:-1rem;
+}
+.sec-year{
+    top: 11.3rem;
+}
+.third-year{
+    top: 20rem;
+}
+.dot{
+    height: 10px;
+    position: absolute;
+    right: -18px;
+    width: 10px;
+    background-color: black;
+    border-radius: 50%;
+}
+.content-experience-label >h5:last-child{
+    margin-top: 1rem;
+}
+.content-social-profile i{
+    margin-right: 0.5rem;
+    color: #45B7D2;
+}
+.content-social-profile a:first-child, .content-social-profile a:nth-child(2), .content-social-profile a:last-child{
+   text-decoration: none; color: black;
+} 
+
+.profile_address{ text-align: left;
+
+}
+.display_block{
+    display: block;
+    color: #45B7D2;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+.content-projects{
+    margin-top: 0.5rem;
+}
+.link{
+    text-decoration: none !important;
+    color: #45B7D2;
+}
