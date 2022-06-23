@@ -2,6 +2,7 @@
     height: 100%;
     width: 70%;
     box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
+    position: relative;
 }
 .profile-pic{
     /* height: 19rem;
@@ -72,7 +73,7 @@
 .content-experience-label{
     padding: 1rem 2rem 0 2rem;
 }
-.content-education-label h5,.content-experience-label >h5{
+.content-education-label h5,.content-declaration h5,.content-experience-label >h5{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     line-height: 2rem;
@@ -185,4 +186,12 @@
 }
 .content-projects span:nth-child(2) {
     margin-left: 2rem;
+}
+.content-declaration{
+    position: absolute;
+    bottom: 2rem;
+}
+.declaration{
+    position: absolute;
+    right: 5rem;
 }
